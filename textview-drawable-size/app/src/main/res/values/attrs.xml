@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="HeyDealerTextView">
+        <attr name="drawableStartSize" format="dimension|reference" />
+        <attr name="drawableEndSize" format="dimension|reference" />
+    </declare-styleable>
+</resources>
