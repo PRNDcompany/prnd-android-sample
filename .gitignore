@@ -1,0 +1,4 @@
+*.apk
+key/
+.idea/
+.DS_Store
