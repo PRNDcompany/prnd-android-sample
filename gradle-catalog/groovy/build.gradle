@@ -1,0 +1,22 @@
+buildscript {
+    dependencies {
+        classpath(deps.gradle)
+        classpath(deps.kotlin)
+        classpath(deps.hilt.gradle)
+    }
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
