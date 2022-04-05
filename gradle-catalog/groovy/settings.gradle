@@ -6,7 +6,7 @@ enableFeaturePreview("VERSION_CATALOGS")
 dependencyResolutionManagement {
     versionCatalogs {
         deps {
-            from(files("../dependencies.toml"))
+            from(files("gradle/dependencies.toml", "../dependencies.toml"))
         }
     }
 }
